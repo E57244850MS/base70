@@ -1,7 +1,7 @@
 # Description
 
 Convert numbers to base 70 string (e.g. 1520893643779 = "6vv6Bu~")
-Provides more efficient way to store big numbers (e.g. to reduce JSON size):
+Provides more efficient way to store big numbers (e.g. for IDs or to reduce JSON size):
 
 | bytes | max value | string representation |
 | ----- |:---------:| ---------:|
@@ -21,7 +21,7 @@ Provides more efficient way to store big numbers (e.g. to reduce JSON size):
 
 # Encoding
 
-`toBase70()` produces only URL friendly charackters. Actually all of them except `-` (which can be used as separator between encoded values)
+`toBase70()` produces only URL friendly characters. Actually all of them except `-` (which can be used as separator between encoded values)
 
 | Symbol | Value 
 | ------ | ----:
