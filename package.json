@@ -1,0 +1,43 @@
+{
+  "name": "base70",
+  "version": "1.0.0",
+  "description": "Converts dec number to base 70 and back",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "jest src/",
+    "prepublish": "npm run build",
+    "release": "np"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandemorc/base70.git"
+  },
+  "keywords": [
+    "base",
+    "70",
+    "radix"
+  ],
+  "author": "Maksims Strasinskis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandemorc/base70/issues"
+  },
+  "homepage": "https://github.com/vandemorc/base70#readme",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^22.4.2",
+    "np": "^2.20.1",
+    "watch": "^1.0.2"
+  }
+}
