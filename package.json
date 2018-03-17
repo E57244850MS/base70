@@ -1,6 +1,6 @@
 {
   "name": "base70",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converts dec number to base 70 and back",
   "main": "build/index.js",
   "scripts": {
