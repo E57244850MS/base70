@@ -1,6 +1,6 @@
 # Description
 
-Small functions to convert numbers to base 70 string (e.g. 1520893643779 = "6vv6Bu~") and back.
+Functions to convert numbers to base 70 URL-friendly string (e.g. 1520893643779 = "6vv6Bu~") and back.
 Provides more efficient way to store big numbers (e.g. for IDs or to reduce JSON size):
 
 | bytes | max value | string representation |
